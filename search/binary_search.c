@@ -25,6 +25,7 @@ int main(){
     for(int i=0;i<size;i++){
         scanf("%d",&array[i]);
     }
+
     index=binary_search(array,0,size-1,value);
     printf("%d",index);
     return 0;
